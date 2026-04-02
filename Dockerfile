@@ -1,1 +1,1 @@
-FROM dropapp/drop:latest
+FROM ghcr.io/dropapp/drop-server:latest
