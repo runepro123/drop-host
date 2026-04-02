@@ -1,0 +1,1 @@
+FROM dropapp/drop:latest
