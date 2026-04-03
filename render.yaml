@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: drop-server
+    env: docker
+    plan: free
+    disk:
+      name: drop-data
+      mountPath: /app/data
+      sizeGB: 1
+    autoDeploy: true
